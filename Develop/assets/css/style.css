@@ -24,6 +24,7 @@ header h1 {
     color: #d9dcd6;
 }
 
+/*Controls style of header links*/
 header section {
     padding-top: 15px;
     margin-right: 20px;
@@ -57,7 +58,6 @@ figcaption {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
 }
