@@ -53,6 +53,7 @@ p {
     font-size: 16px;
 }
 
+/* Controls Hero background image */
 #hero {
     height: 800px;
     width: 100%;
@@ -73,10 +74,35 @@ p {
     margin-left: 25px;
 }
 
-section {
-
+/* Sets base style for blocks class */
+.blocks {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
 }
 
+/*Styles all articles in the blocks container*/
+.blocks article {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/*Styles all images under .blocks*/
+.blocks img {
+    max-height: 200px;
+}
+
+/*Styles all <h2> under .blocks*/
+.blocks h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/*Sets properties for everything in aside container*/
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -103,33 +129,6 @@ aside {
     display: block;
     margin: 10px auto;
     max-width: 150px;
-}
-
-.blocks {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-
-/*Styles all articles in the blocks container*/
-.blocks article {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-/*Styles all images under .blocks*/
-.blocks img {
-    max-height: 200px;
-}
-
-/*Styles all <h2> under .blocks*/
-.blocks h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
 }
 
 /*Establishes the footer visuals*/
